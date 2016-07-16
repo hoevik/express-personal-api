@@ -11,6 +11,7 @@ var RolemodelSchema = new Schema({
     nationality: String,
     description: String,
     img  : String,
+    added_by: String, 
 });
 
 
