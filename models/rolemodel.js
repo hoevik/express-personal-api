@@ -1,9 +1,5 @@
-var Rolemodel = mongoose.model('Rolemodel', RolemodelSchema);
-
-
-
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+  Schema = mongoose.Schema;
 
 var RolemodelSchema = new Schema({
     name : String,
@@ -11,8 +7,9 @@ var RolemodelSchema = new Schema({
     nationality: String,
     description: String,
     img  : String,
-    added_by: String, 
+    added_by: String,
 });
 
+var Rolemodel = mongoose.model('Rolemodel', RolemodelSchema);
 
 module.exports = Rolemodel;
