@@ -2,9 +2,9 @@
 
 It's time to have some fun and play with the technologies you've learned in the past week. Your goal is to build a API about yourself. Your API will incorporate:
 * Well-documented **JSON API** Endpoints
-* A full set of **REST-ful Routes** (GET, POST, UPDATE, DELETE)
+*  A full set of **REST-ful Routes** (GET, POST, UPDATE, DELETE)
 * At least one **CRUD-able resource** (Create, Read, Update, Destroy)
-* and an `/api/profile` endpoint with some basic **details about you**
+* [check]and an `/api/profile` endpoint with some basic **details about you**
 
 Finally, you will **consume your API** using AJAX and **render the results** to the page using jQuery.
 
@@ -81,8 +81,8 @@ An example API for 'Jon Snow' might have endpoints like:
                                   github_link: "http://github.com/u-know-nothing-jon-snow",
                                   current_city: "The Wall",
                                   is_awake: false,
-                                  family_members: [ 
-                                    { name: 'Arya Stark', relationship: 'sister' }, 
+                                  family_members: [
+                                    { name: 'Arya Stark', relationship: 'sister' },
                                     { name: 'Bran Stark', relationship: 'brother' }
                                   ]
                                 }
@@ -95,7 +95,7 @@ An example API for 'Jon Snow' might have endpoints like:
                                     opponents: [ 'Mance Rayder', 'Lord of Bones'],
                                     status: 'resolved'
                                  },
-                                 { 
+                                 {
                                     _id: 3,
                                     name: 'Save the wildlings',
                                     type: 'campaign',
@@ -103,7 +103,7 @@ An example API for 'Jon Snow' might have endpoints like:
                                     status: 'pending'
                                  }
                                 ]
-    
+
     GET /api/projects?limit=1   [ { _id: 2, name:'Defeat...' } ]
 
     GET /api/projects?status=pending
